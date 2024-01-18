@@ -1,0 +1,15 @@
+/* ConfigFile for DJ7NT Simple-Github Bot */
+const config = {
+	baseUrl:'/gh',							// In case you redirect sth. for example with haproxy put the baseUrl here
+	Ttoken: '[Your Telegram-Bot-Token]'',				// Telegram Toekn from "BotFather"
+	webport: 8005,							// Where should it listen?
+	logging: true,							// Should it be verbose on console?
+	reponame: 'gh_owner/reponame',					// The owner+Reponame to be checked
+	informChats:[							// Who should be informed?
+		{ chatId: 12345678 }, 		// SingleUser
+		{ chatId: -100009876543 }, 		// Group (Bot must be member there)
+		{ chatId: -100009876543, mti: 1 }	// Subchannel of Group (id 1)
+	],
+};
+
+module.exports = config;

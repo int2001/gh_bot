@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "name": "gitHub Telegram informer",
+  "version": "1.0.0",
+  "main": "gh_handler.js",
+  "license": "MIT"
+}
