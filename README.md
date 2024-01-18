@@ -1,7 +1,7 @@
 ## Simple notifier for PRs on github-repos to Telegram
 
 ### Installation
-* git clone [git@github.com:int2001/gh_bot.git](https://github.com/int2001/gh_bot.git)
+* git clone https://github.com/int2001/gh_bot.git
 * npm install
 * Rename and edit config.js.sample (see below)
 * start the daemon by calling it `node ./hg_handler` or putting it into your favorite manager (like pm2)
